@@ -1,0 +1,113 @@
+/*logo的样式设计*/
+.logo {
+    float: left;
+    width: 251px;
+    margin-right: 30px;
+    }
+
+/*下拉导航条的所有样式设计*/
+.nav {
+    height: 60px;
+    background: #333;
+    box-shadow: 0 1px 2px #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.btli {
+    list-style: none;
+    float: left;
+    width: 320px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navlist a {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    display:block;
+}
+
+.navlist a:hover {
+     background: #666;
+}
+
+.droplist {
+    list-style: none;
+    background-color: #333;
+    box-shadow: 0 1px 2px #333;
+    display: none;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 999;
+}
+
+.droplist li {
+    width: 320px;
+  }
+
+.btli:hover .droplist {
+    display: block;
+}
+
+.droplist li {
+    border-top: 1px solid #666;
+}
+
+/* banner的样式设计 */
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/blue.jfif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.banner p {
+    color: whitesmoke;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+/* 文字的样式设计 */
+.text {
+    margin-right: 180px;
+    margin-left: 220px;
+    font-family: Arial, 'Microsoft Yahei';
+    font-size: 18px;
+    line-height: 175%;
+    text-align: justify;
+}
+
+.text h1 {
+    font-size: 27px;
+    font-weight: 1000;
+    color: rgb(44, 86, 124);
+}
+
+.text h2{
+    font-size: 20px;
+    font-weight: 1000;
+    color: rgb(44, 86, 124);
+}
+
+/* bottom的设计 */
+.bottom {
+    height: 120px;
+    padding-top: 60px;
+    line-height: 200%;
+    background-color: #666;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+}

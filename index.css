@@ -1,0 +1,84 @@
+/*logo的样式设计*/
+.logo {
+    float: left;
+    width: 251px;
+    margin-right: 30px;
+    }
+
+/*下拉导航条的所有样式设计*/
+.nav {
+    height: 60px;
+    background: #333;
+    box-shadow: 0 1px 2px #666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.btli {
+    float: left;
+    width: 320px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navlist a {
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 18px;
+    display:block;
+}
+
+.navlist a:hover {
+     background: #666;
+}
+
+.droplist {
+    background-color: #333;
+    box-shadow: 0 1px 2px #333;
+    display: none;
+    border-radius: 6px;
+}
+
+.btli:hover .droplist {
+    display: block;
+}
+
+.droplist li {
+    border-top: 1px solid #666;
+}
+
+/* 背景大图 */
+body {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position:center 60px;
+    background-attachment: scroll;
+    color: whitesmoke;
+}
+
+/* 页面文字样式 */
+body h1 {
+    font-size: 85px;
+    font-family: Helvetica;
+    line-height: 200%;
+}
+
+body h2 {
+    font-size: 30px;
+    font-family: Helvetica, 'Microsoft Yahei';
+    font-weight: 1000;
+    line-height: 180%;
+}
+
+.text {
+    height: 500px;
+    margin-top: 180px;
+    margin-left: 30px;
+}

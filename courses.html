@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>BFSU EMSC</title>
+    <link rel="stylesheet" href="courses.css">
+
+</head>
+ <!-- logo -->
+ <div class="logo"><img src="images/logo-transparent-small.png"></div>
+
+ <!-- 下拉导航条 -->
+ <div class="nav">
+    <ul class="navlist">
+        <li class="btli"><a href="index.html">Home</a></li>
+        <li class="btli"><a href="cardiac.html">First Aid</a>
+            <ul class="droplist">
+                <li><a href="cardiac.html">Cardiac Emergency</a></li>
+                <li><a href="respiratory.html">Respiratory Emergency</a></li>
+            </ul>
+        </li>
+        <li class="btli"><a href="courses.html">Courses</a></li>
+    </ul>
+</div>
+
+<!-- banner -->
+<div class="banner">
+    <p>Courses Online Registration</p>
+    </div>
+
+<!-- text -->
+<div class="text">
+    <br/>
+    <h1>About the Course: </h1>
+    <br/>
+    <p>Thank you for your interest in our course. In the class, you will have hands-on expereience on the most critical first aid techniques. You wil gain Red Cross certificaion of CPR or Heimlich Maneuver if you pass the test on the last session of the training. The course is free of charge for BFSU students, however, you may only select ONE course at a time. The training is given at the Student Hall, Room 102 from 1pm to 3pm every Sunday. Please fill out the form below for online registration. </p>
+    <br/>
+</div>
+
+<!-- Registration Form -->
+    <div class="form">
+        <form>
+            <label>Name: </label><input class="ad" type="text" placeholder="Format: Xiaoming Chen">
+            <br/>
+            <label>Gender: </label>
+            <input type="radio" name="sex" id="Female"><label for="Female"><img src="images/girl.png" width="30px" height="30px"> Female</label>
+            <input type="radio" name="sex" id="Male"><label for="Male"><img src="images/boy.png" width="30px" height="30px"> Male</label>
+            <br/>
+            <label>E-mail: </label><input class="ad" type="email">
+            <br/>
+            <label>Major: </label><input class="ad" type="text">
+            <br/>
+            <label>Student ID: </label><input class="ad" type="text">
+            <br/>
+            <label>Course: </label>
+            <select>
+                <option class="ad">CPR 心肺复苏术</option>
+                <option class="ad">Heimlich Maneuver 海姆利克急救法</option>
+            </select>
+            <br/>
+            <label>What's Your Expectation for the Course: </label><textarea></textarea>  
+            <br/> 
+            <hr>
+            <div class="button" onclick="pw()">
+                <a href="#">Sign Up</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+		function pw(){
+			alert("Registration submitted. Thank you!")
+		}
+		</script>
+    
+    <!-- 提交按钮 -->
+   
+
+     <!-- bottom -->
+     <div class="bottom">
+        <p>All Rights Reserved<br/>@&nbsp;BFSU EMSC</p>
+    </div>
+
+<body>
+    
+</body>
+
+</html>
